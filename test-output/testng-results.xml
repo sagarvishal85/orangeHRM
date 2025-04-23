@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-23T23:35:31 IST" name="Default suite" finished-at="2025-04-23T23:35:46 IST" duration-ms="15597">
+    <groups>
+    </groups>
+    <test started-at="2025-04-23T23:35:31 IST" name="Default test" finished-at="2025-04-23T23:35:46 IST" duration-ms="15597">
+      <class name="web.tests.WebPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:web.tests.WebPageTest@4567f35d]" started-at="2025-04-23T23:35:31 IST" name="setUp" finished-at="2025-04-23T23:35:38 IST" duration-ms="6850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginNegative()[pri:0, instance:web.tests.WebPageTest@4567f35d]" started-at="2025-04-23T23:35:38 IST" name="testLoginNegative" finished-at="2025-04-23T23:35:40 IST" duration-ms="2419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginNegative -->
+        <test-method signature="testLoginPositive()[pri:1, instance:web.tests.WebPageTest@4567f35d]" started-at="2025-04-23T23:35:40 IST" name="testLoginPositive" finished-at="2025-04-23T23:35:41 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPositive -->
+        <test-method signature="testCandidateNavigation()[pri:2, instance:web.tests.WebPageTest@4567f35d]" started-at="2025-04-23T23:35:41 IST" name="testCandidateNavigation" finished-at="2025-04-23T23:35:43 IST" depends-on-methods="web.tests.WebPageTest.testLoginPositive" duration-ms="1858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCandidateNavigation -->
+        <test-method signature="testAddCandidate()[pri:3, instance:web.tests.WebPageTest@4567f35d]" started-at="2025-04-23T23:35:43 IST" name="testAddCandidate" finished-at="2025-04-23T23:35:46 IST" depends-on-methods="web.tests.WebPageTest.testCandidateNavigation" duration-ms="2984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCandidate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:web.tests.WebPageTest@4567f35d]" started-at="2025-04-23T23:35:46 IST" name="tearDown" finished-at="2025-04-23T23:35:46 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- web.tests.WebPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
